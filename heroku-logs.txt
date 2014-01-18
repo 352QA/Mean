@@ -1,0 +1,101 @@
+2014-01-18T19:20:39.710403+00:00 app[web.1]: [33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+2014-01-18T19:20:43.450352+00:00 app[web.1]: Express app started on port 54058
+2014-01-18T19:20:43.457044+00:00 app[web.1]:         throw er; // Unhandled 'error' event
+2014-01-18T19:20:43.456029+00:00 app[web.1]: 
+2014-01-18T19:20:43.456633+00:00 app[web.1]: events.js:72
+2014-01-18T19:20:43.469829+00:00 app[web.1]:               ^
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at EventEmitter.emit (events.js:106:17)
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+2014-01-18T19:20:43.476813+00:00 app[web.1]: Error: failed to connect to [hyperion.352media.local:27021]
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at Socket.EventEmitter.emit (events.js:95:17)
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at net.js:830:16
+2014-01-18T19:20:43.476813+00:00 app[web.1]:     at process._tickCallback (node.js:415:13)
+2014-01-18T19:20:43.536876+00:00 app[web.1]: error: Forever detected script exited with code: 8
+2014-01-18T19:20:43.600771+00:00 app[web.1]: error: Forever restarting script for 1 time
+2014-01-18T19:20:46.439376+00:00 app[web.1]: Express app started on port 54058
+2014-01-18T19:20:46.459704+00:00 app[web.1]: 
+2014-01-18T19:20:46.464903+00:00 app[web.1]: events.js:72
+2014-01-18T19:20:46.465890+00:00 app[web.1]:         throw er; // Unhandled 'error' event
+2014-01-18T19:20:46.471350+00:00 app[web.1]:               ^
+2014-01-18T19:20:46.484384+00:00 app[web.1]: Error: failed to connect to [hyperion.352media.local:27021]
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at net.js:830:16
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at EventEmitter.emit (events.js:106:17)
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at process._tickCallback (node.js:415:13)
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+2014-01-18T19:20:46.484384+00:00 app[web.1]:     at Socket.EventEmitter.emit (events.js:95:17)
+2014-01-18T19:20:46.520246+00:00 app[web.1]: error: Forever detected script exited with code: 8
+2014-01-18T19:20:46.549063+00:00 app[web.1]: error: Forever restarting script for 2 time
+2014-01-18T19:20:50.704625+00:00 app[web.1]: Express app started on port 54058
+2014-01-18T19:20:50.733362+00:00 app[web.1]: 
+2014-01-18T19:20:50.734130+00:00 app[web.1]: events.js:72
+2014-01-18T19:20:50.737544+00:00 app[web.1]:         throw er; // Unhandled 'error' event
+2014-01-18T19:20:50.753343+00:00 app[web.1]:               ^
+2014-01-18T19:20:50.768809+00:00 app[web.1]: Error: failed to connect to [hyperion.352media.local:27021]
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at EventEmitter.emit (events.js:106:17)
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at Socket.EventEmitter.emit (events.js:95:17)
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at net.js:830:16
+2014-01-18T19:20:50.768809+00:00 app[web.1]:     at process._tickCallback (node.js:415:13)
+2014-01-18T19:20:50.807521+00:00 app[web.1]: error: Forever detected script exited with code: 8
+2014-01-18T19:20:50.846448+00:00 app[web.1]: error: Forever restarting script for 3 time
+2014-01-18T19:20:53.135890+00:00 app[web.1]: Express app started on port 54058
+2014-01-18T19:20:53.140514+00:00 app[web.1]: 
+2014-01-18T19:20:53.141326+00:00 app[web.1]: events.js:72
+2014-01-18T19:20:53.142396+00:00 app[web.1]:         throw er; // Unhandled 'error' event
+2014-01-18T19:20:53.145050+00:00 app[web.1]:               ^
+2014-01-18T19:20:53.147745+00:00 app[web.1]: Error: failed to connect to [hyperion.352media.local:27021]
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at net.js:830:16
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at EventEmitter.emit (events.js:106:17)
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at Socket.EventEmitter.emit (events.js:95:17)
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+2014-01-18T19:20:53.147745+00:00 app[web.1]:     at process._tickCallback (node.js:415:13)
+2014-01-18T19:20:53.163745+00:00 app[web.1]: error: Forever detected script exited with code: 8
+2014-01-18T19:20:53.178752+00:00 app[web.1]: error: Forever restarting script for 4 time
+2014-01-18T19:20:56.135882+00:00 app[web.1]: Express app started on port 54058
+2014-01-18T19:20:56.149925+00:00 app[web.1]: 
+2014-01-18T19:20:56.150399+00:00 app[web.1]: events.js:72
+2014-01-18T19:20:56.150852+00:00 app[web.1]:         throw er; // Unhandled 'error' event
+2014-01-18T19:20:56.157781+00:00 app[web.1]:               ^
+2014-01-18T19:20:56.161120+00:00 app[web.1]: Error: failed to connect to [hyperion.352media.local:27021]
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at EventEmitter.emit (events.js:106:17)
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:553:74)
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:512:10)
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at net.js:830:16
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at Socket.EventEmitter.emit (events.js:95:17)
+2014-01-18T19:20:56.161120+00:00 app[web.1]:     at process._tickCallback (node.js:415:13)
+2014-01-18T19:20:56.257068+00:00 app[web.1]: error: Forever detected script exited with code: 8
+2014-01-18T19:21:34.471387+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-01-18T19:21:34.471127+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-01-18T19:21:36.097900+00:00 heroku[web.1]: Process exited with status 137
+2014-01-18T19:21:36.109019+00:00 heroku[web.1]: State changed from starting to crashed
+2014-01-18T19:21:38.990210+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=e694605f-d88c-4cf6-9bc4-6bdd85ece670 fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
+2014-01-18T19:21:42.321289+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=1b32e768-5e12-48e5-b181-98312b5e2423 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:21:47.327942+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=ac7b3b04-c4f4-43d8-8fd4-653e5fab22ad fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:21:51.465331+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=ee9fb73f-c5b3-455d-9f9e-3b7a46f1394e fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
+2014-01-18T19:21:51.725267+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=mean-stack.herokuapp.com request_id=eca0a0fc-1fce-4860-ab8d-55bf9b136543 fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
+2014-01-18T19:21:37.305289+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=470b6cb4-0862-495e-97f0-e6921fac6242 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:21:39.221622+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path=/ host=mean-stack.herokuapp.com request_id=ffe8c18e-0d91-47cb-b3a9-7ebad11aba67 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:15.106552+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=2f4043a7-37e1-4fcf-910a-daa9493116a0 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:25.132679+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=5832d098-535f-418d-a7f4-60f65ef97b18 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:30.146008+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=92de5237-ab1d-44f6-bc51-02808315d06d fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:35.165874+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=4db3a2c7-5761-4957-a045-3c87841f20e3 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:40.178130+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=eadc1cbe-f8e4-4b9b-8671-0e9ef240d2e8 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:43.429088+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=fe9fc949-76bc-4d5a-8b57-f58491ec60ff fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:55.510346+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=5c42fcb8-4d23-40a3-a243-c173de8ddc97 fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:55.732575+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=mean-stack.herokuapp.com request_id=0ae85d6a-5e58-4160-9165-fbec7e437b32 fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:20.124006+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=mean-stack.herokuapp.com request_id=3e56ad80-d059-4c61-b4c4-bfc51d862c43 fwd="54.196.220.176" dyno= connect= service= status=503 bytes=
+2014-01-18T19:23:43.627270+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=mean-stack.herokuapp.com request_id=c844608b-6bff-47ce-bebb-b11a8734a5ba fwd="70.169.187.174" dyno= connect= service= status=503 bytes=
